@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Chapter 6</title>
+    </head>
+    <body>
+        <h1>Chapter # 7 - Forms</h1>
+        <form method="POST" action="#">
+            <fieldset>
+                <legend>Your Details:</legend>
+                <label>Name: <input name="name" type="tex"/></label><br/>
+                <label>Email: <input name="email" type="email"/></label><br/>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>Your Review:</legend>
+                <label>How did you hear about us? </label><select name="referrer" id="hear-about">
+                        <option value="google">Google</option>
+                        <option value="friend">Friend</option>
+                        <option value="advert">Advert</option>
+                        <option value="other">Other</option>
+                        </select><br/>
+                <label>Would you visit again?</label><br/>
+                <input type="radio" name="visit" value="Yes"/>
+                <input type="radio" name="visit" value="No"/>
+                <input type="radio" name="visit" value="May be"/><br/>
+                <label>Comments:</label><br/>
+                <textarea rows="4" cols="20"></textarea><br/>
+                <input type="checkbox" name="signUp"/><label>Sign me up for email updated</label><br/>
+                <input type="submit" value="Submit Review"/>
+            </fieldset>
+        </form>
+    </body>
+</html>
