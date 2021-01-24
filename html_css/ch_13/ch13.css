@@ -1,0 +1,17 @@
+div{
+    display: inline-table;
+    border: 2px solid burlywood;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    max-width: 10%;
+    align-items: center;
+}
+button{
+    background-color: cornflowerblue;
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 24px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
